@@ -32,7 +32,7 @@ end
 require 'vault'
 Vault.configure do |config|
   # The address of the Vault server
-  config.address = 'http://44.201.43.68:8200/'
+  config.address = ''
   # The token to authenticate with Vault
   config.token = ''
 end
